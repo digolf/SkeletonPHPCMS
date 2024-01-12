@@ -7,12 +7,18 @@ use App\Models\User;
 
 class Users extends BaseController
 {
+    function __construct()
+    {
+        // Models
+        $this->userModel = new User();
+    }
+
     public function index()
     {
-        $userModel = new User();
         $this->data['title'] = 'Usuários';
         $this->data['subtitle'] = 'Controle de acesso';
-        $this->data['users'] = $userModel->getAll();
+        $this->data['users'] = $this->userModel->getAll();
+        $this->data['user_logged_in'] = $this->session->get('user_logged_in') ?? null;
 
         return view('gerenciador/dashboard/users/index', $this->data);
     }
@@ -21,6 +27,7 @@ class Users extends BaseController
     {
         $this->data['title'] = 'Usuários';
         $this->data['subtitle'] = 'Adicionar usuário';
+        $this->data['user_logged_in'] = $this->session->get('user_logged_in') ?? null;
 
         $postInfo = $this->request->getPost();
         if (!empty($postInfo['name']) &&
@@ -29,10 +36,9 @@ class Users extends BaseController
             !empty($postInfo['active']) &&
             !empty($postInfo['new_pass']) &&
             !empty($postInfo['new_pass_confirmation']))  {
-            $userModel = new User();
-            $user = $userModel->get($postInfo);
+            $user = $this->userModel->get($postInfo);
             if (empty($user)) {
-                $userModel->insertNewUser($postInfo);
+                $this->userModel->insertNewUser($postInfo);
                 $this->data['inserted'] = True;
             } else {
                 $this->data['user_already_exists'] = True;
@@ -48,14 +54,13 @@ class Users extends BaseController
     {
         $this->data['title'] = 'Usuários';
         $this->data['subtitle'] = 'Editar usuário';
-        $userModel = new User();
-        $this->data['user'] = $userModel->getById($userId);
+        $this->data['user'] = $this->userModel->getById($userId);
 
         $postInfo = $this->request->getPost();
         if (!empty($postInfo))  {
-            $userModel->edit($postInfo, $userId);
+            $this->userModel->edit($postInfo, $userId);
             $this->data['user_updated'] = True;
-            $this->data['user'] = $userModel->getById($userId);
+            $this->data['user'] = $this->userModel->getById($userId);
 
             return view('gerenciador/dashboard/users/edit', $this->data);
         }
@@ -66,9 +71,8 @@ class Users extends BaseController
     public function delete()
     {
         $userId = $this->request->getPost('user_id');
-        $userModel = new User();
-        $userModel->delete($userId);
-        $users = $userModel->getAll();
+        $this->userModel->delete($userId);
+        $users = $this->userModel->getAll();
         return json_encode($users);
     }
 }

@@ -18,7 +18,7 @@ class ManagerLogin extends BaseController
         return view('gerenciador/login/index');
     }
 
-    public function login(): string|\CodeIgniter\HTTP\RedirectResponse
+    public function login()
     {
         $email = trim($this->request->getPost('username'));
         $password = trim($this->request->getPost('password'));
@@ -36,9 +36,12 @@ class ManagerLogin extends BaseController
         return view('gerenciador/login/index', $this->data);
     }
 
-    public function logout(): void
+    public function logout()
     {
-        parent::logout();
-        $this->logout();
+        if ($this->session->get('user_logged_in') !== null) {
+            $this->session->set('user_logged_in', null);
+        }
+
+        return redirect()->to(base_url('/gerenciador'));
     }
 }

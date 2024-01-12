@@ -9,6 +9,7 @@ class Dashboard extends BaseController
         if (isset($this->session) && !empty($this->session->get('user_logged_in'))) {
             $this->data['title'] = 'Usuários';
             $this->data['subtitle'] = 'Listagem';
+            $this->data['user_logged_in'] = $this->session->get('user_logged_in') ?? null;
             return view('gerenciador/dashboard/index', $this->data);
         }
 

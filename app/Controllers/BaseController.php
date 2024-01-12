@@ -51,15 +51,9 @@ abstract class BaseController extends Controller
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
         $this->session = \Config\Services::session();
+
         ini_set('display_errors', '1');
         ini_set('display_startup_errors', '1');
         error_reporting(E_ALL);
-    }
-
-    public function logout() {
-        if ($this->session->get('user_logged_in') !== null) {
-            $this->session->remove($this->session->get('user_logged_in'));
-        }
-        return redirect()->to(base_url('/gerenciador'));
     }
 }

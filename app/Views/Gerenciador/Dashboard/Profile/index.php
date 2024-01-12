@@ -4,12 +4,12 @@
 <div class="content-right">
     <h3><?php echo $title; ?></h3>
     <small class="fs-15"><?php echo $subtitle; ?></small>
-    <form class="mt-5 row col-md-12 d-flex align-items-center flex-wrap">
+    <form method="POST" class="mt-5 row col-md-12 d-flex align-items-center flex-wrap">
         <small class="fs-15 mb-2">Informações pessoais</small>
         <div class="col-md-12 form-group">
             <label for="name">Nome completo</label>
             <input id="name"
-                   value="<?php echo (!empty($user->name)) ? $user->name : ''; ?>"
+                   value="<?php echo (!empty($user_logged_in->username)) ? $user_logged_in->username : ''; ?>"
                    class="form-control form-control-lg"
                    type="text"
                    name="name"
@@ -18,7 +18,7 @@
         <div class="col-md-12 form-group">
             <label for="email">E-mail</label>
             <input id="email"
-                   value="<?php echo (!empty($user->email)) ? $user->email : ''; ?>"
+                   value="<?php echo (!empty($user_logged_in->email)) ? $user_logged_in->email : ''; ?>"
                    class="form-control form-control-lg"
                    type="email"
                    name="email"
@@ -27,7 +27,7 @@
         <div class="col-md-12 form-group">
             <label for="phone">Telefone</label>
             <input id="phone"
-                   value="<?php echo (!empty($user->phone)) ? $user->phone : ''; ?>"
+                   value="<?php echo (!empty($user_logged_in->phone)) ? $user_logged_in->phone : ''; ?>"
                    class="form-control form-control-lg"
                    type="text"
                    name="phone"
@@ -38,7 +38,7 @@
         <div class="col-md-6 form-group">
             <label for="new-password">Nova senha</label>
             <input id="new-password"
-                   value="<?php echo (!empty($user->phone)) ? $user->phone : ''; ?>"
+                   value=""
                    class="form-control form-control-lg"
                    type="text"
                    name="new_pass"
@@ -47,7 +47,7 @@
         <div class="col-md-6 form-group">
             <label for="new-password-confirmation">Confirmar nova senha</label>
             <input id="new-password-confirmation"
-                   value="<?php echo (!empty($user->phone)) ? $user->phone : ''; ?>"
+                   value=""
                    class="form-control form-control-lg"
                    type="text"
                    name="new_pass_confirmation"

@@ -32,6 +32,7 @@
         </nav>
     </a>
 
+    <?php if ($user_logged_in !== null && $user_logged_in) { ?>
     <a href="/gerenciador/dashboard/users">
         <nav>
             <div class="nav-item">
@@ -44,6 +45,7 @@
             </div>
         </nav>
     </a>
+    <?php } ?>
 
     <a href="/gerenciador/dashboard/profile">
         <nav>
