@@ -1,0 +1,492 @@
+CRITICAL - 2024-01-03 03:20:35 --> include(../Header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/gerenciador/dashboard/users/index.php on line 1.
+ 1 APPPATH/Views/gerenciador/dashboard/users/index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../Header.php): Failed to open stream: No such file or directory', '/Users/rlferrazza/Documents/skeleton/app/Views/gerenciador/dashboard/users/index.php', 1)
+ 2 APPPATH/Views/gerenciador/dashboard/users/index.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/Users/rlferrazza/Documents/skeleton/app/Views/gerenciador/dashboard/users/index.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('gerenciador/dashboard/users/index', [], true)
+ 6 APPPATH/Controllers/Users.php(13): view('gerenciador/dashboard/users/index')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 03:22:31 --> Undefined variable $title
+in APPPATH/Views/gerenciador/dashboard/users/index.php on line 5.
+ 1 APPPATH/Views/gerenciador/dashboard/users/index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/Users/rlferrazza/Documents/skeleton/app/Views/gerenciador/dashboard/users/index.php', 5)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/rlferrazza/Documents/skeleton/app/Views/gerenciador/dashboard/users/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('gerenciador/dashboard/users/index', [], true)
+ 5 APPPATH/Controllers/Users.php(13): view('gerenciador/dashboard/users/index')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 03:22:32 --> Undefined variable $title
+in APPPATH/Views/gerenciador/dashboard/users/index.php on line 5.
+ 1 APPPATH/Views/gerenciador/dashboard/users/index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/Users/rlferrazza/Documents/skeleton/app/Views/gerenciador/dashboard/users/index.php', 5)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/rlferrazza/Documents/skeleton/app/Views/gerenciador/dashboard/users/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('gerenciador/dashboard/users/index', [], true)
+ 5 APPPATH/Controllers/Users.php(13): view('gerenciador/dashboard/users/index')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 03:22:46 --> Undefined variable $title
+in APPPATH/Views/gerenciador/dashboard/users/index.php on line 5.
+ 1 APPPATH/Views/gerenciador/dashboard/users/index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/Users/rlferrazza/Documents/skeleton/app/Views/gerenciador/dashboard/users/index.php', 5)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/rlferrazza/Documents/skeleton/app/Views/gerenciador/dashboard/users/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('gerenciador/dashboard/users/index', [], true)
+ 5 APPPATH/Controllers/Users.php(13): view('gerenciador/dashboard/users/index')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 03:34:33 --> Invalid file: "gerenciador/dashboard/users/add.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('gerenciador/dashboard/users/add.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('gerenciador/dashboard/users/add', [], true)
+ 3 APPPATH/Controllers/Users.php(20): view('gerenciador/dashboard/users/add', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 03:41:20 --> Too few arguments to function App\Controllers\Users::edit(), 0 passed in /Users/rlferrazza/Documents/skeleton/system/CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH/Controllers/Users.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 03:42:22 --> Too few arguments to function App\Controllers\Users::edit(), 0 passed in /Users/rlferrazza/Documents/skeleton/system/CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH/Controllers/Users.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 03:49:58 --> syntax error, unexpected token ")"
+in APPPATH/Controllers/Users.php on line 25.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/rlferrazza/Documents/skeleton/app/Controllers/Users.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Users')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Users')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\Users', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 03:53:59 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:02:22 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:08:11 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:08:12 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:08:12 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:08:12 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:08:12 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:08:12 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:08:16 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:08:19 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:08:38 --> Could not check compatibility between App\Controllers\Users::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Users.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 20:09:19 --> Call to undefined method App\Controllers\Users::userModel()
+in APPPATH/Controllers/Users.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->add()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:12:53 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:16:01 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:17:47 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:18:00 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:18:20 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:20:37 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:20:48 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:20:49 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:20:55 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:20:57 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:22:13 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:27:55 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:27:57 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:28:11 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:28:22 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:28:23 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:28:35 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:28:36 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:28:36 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:28:44 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:28:45 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:28:53 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:29:31 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:29:51 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:30:03 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:31:13 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 27.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:35:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 884.
+ 1 SYSTEMPATH/Model.php(638): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(866): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Users.php(36): CodeIgniter\Model->__call('insertNewUser', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:36:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 884.
+ 1 SYSTEMPATH/Model.php(638): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(866): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Users.php(36): CodeIgniter\Model->__call('insertNewUser', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:37:19 --> syntax error, unexpected token "$", expecting variable
+in APPPATH/Models/User.php on line 16.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/rlferrazza/Documents/skeleton/app/Models/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH/Controllers/Users.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:37:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 884.
+ 1 SYSTEMPATH/Model.php(638): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(866): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Users.php(36): CodeIgniter\Model->__call('insertNewUser', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:39:17 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:39:34 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:39:51 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:40:28 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(14): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:40:33 --> Call to a member function insertNewUser() on null
+in APPPATH/Controllers/Users.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Users->add()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:41:38 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(18): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:41:55 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(18): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:42:00 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(18): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:42:11 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(18): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:42:15 --> syntax error, unexpected identifier "oi", expecting ")"
+in APPPATH/Models/User.php on line 24.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/rlferrazza/Documents/skeleton/app/Models/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH/Controllers/Users.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:42:20 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(18): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:43:55 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(18): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:44:09 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(18): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:47:34 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(18): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
+CRITICAL - 2024-01-03 20:48:42 --> Call to a member function table() on null
+in APPPATH/Models/User.php on line 19.
+ 1 APPPATH/Controllers/Users.php(18): App\Models\User->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Users->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/rlferrazza/Documents/skeleton/public/index.php')
