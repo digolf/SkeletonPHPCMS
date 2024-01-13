@@ -11,6 +11,7 @@ class Users extends BaseController
     {
         // Models
         $this->userModel = new User();
+        $this->data['user_logged_in'] = null;
     }
 
     public function index()
